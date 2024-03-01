@@ -5,7 +5,7 @@ const days = today.add(randomNumber, "days");
 export const all_products = [
   {
     id: "001",
-    image: "../src/assets/product-1.webp",
+    image: "./images/product-1.webp",
     name: "Black & Red Pure Cotton Striped Polo Neck White T-shirt - Converge",
     original_price: 259800,  // Original price 2X
     price: 129900,  // Unchanged price
