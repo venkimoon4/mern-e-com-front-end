@@ -1,6 +1,6 @@
 import React from 'react'
 import  "./ShopCategory.css"
-import { all_products } from '../../assets/all_products.js'
+import { all_products } from '../assets/all_products.js'
 import Item from '../Item/Item.jsx'
 
 const ShopCategory = ({category}) => {

@@ -1,5 +1,4 @@
 import React from 'react'
-import BagSummary from './BagSummary'
 import { useDispatch, useSelector } from 'react-redux'
 import { bagActions } from '../../store/bagSlice';
 import { decrementProductQuantity, deleteCartItem, incrementProductQuantity } from '../../controllers/userController';

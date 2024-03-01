@@ -8,6 +8,7 @@ import { getUserItem } from "../../controllers/userController";
 import { bagActions } from "../../store/bagSlice";
 import { userActions } from "../../store/userSlice";
 
+
 const Header = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -51,7 +52,7 @@ const email = useSelector((store) => store.user.email);
     <header className={styles.header}>
       <NavLink to="/" className={`${styles.leftSection} nav-links`}>
         <div>
-          <img src="./images/logo.avif" width="130" alt="logo" />
+          <img src="../src/components/assets/logo.avif" width="130" alt="logo" />
         </div>
         <h3>CLOTHING</h3>
       </NavLink>
