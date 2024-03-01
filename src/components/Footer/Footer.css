@@ -1,0 +1,19 @@
+footer div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer{
+border-top: 1px solid black;
+margin: 50px;
+padding-top: 50px;
+}
+footer li{
+  list-style: none;
+  color: grey;
+}
+footer p{
+  text-align: center;
+  color: grey;
+  margin-top: 20px;
+}

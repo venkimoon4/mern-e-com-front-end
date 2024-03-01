@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: white !important;
+}
+.nav-links{
+  text-decoration: none;
+  color: black;
+  padding-bottom:10px;
+}
+.account{
+  font-size: 2rem;
+}

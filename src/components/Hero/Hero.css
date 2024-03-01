@@ -1,0 +1,84 @@
+.new-arrivals {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.new-arrivals-banner {
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(220, 233, 148, 1) 100%
+  );
+  height: 350px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.new-arrivals-banner h3 {
+  font-size: 2rem;
+}
+.new-arrivals-banner p {
+  font-size: 1.5rem;
+}
+.new-arrivals-banner p span {
+  font-size: 3rem;
+}
+.new-collection h3 {
+  padding: 5px;
+  font-size: 2rem;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(220, 233, 148, 1) 100%
+  );
+  color: white;
+  margin: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+.new-collection-women h3 {
+  font-size: 2rem;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(220, 233, 148, 1) 100%
+  );
+  color: white;
+  margin: 20px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.news-letter {
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(220, 233, 148, 1) 100%
+  );
+  height: 350px;
+  margin: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-letter div h3 {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.news-letter div input {
+  padding: 10px;
+  border: none;
+  width: 350px;
+}
+.news-letter div button {
+  padding: 10px;
+  border: none;
+  background-color: orange;
+  color: white;
+}

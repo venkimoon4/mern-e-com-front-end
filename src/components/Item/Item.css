@@ -1,0 +1,18 @@
+.item-container{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+.item-details-container .item-name{
+font-size: 1rem;
+}
+.item-details-container{
+  margin-top: 10px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.item-details-container p{
+  color: rgb(86, 83, 83);
+}
