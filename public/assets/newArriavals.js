@@ -5,7 +5,7 @@ const days = today.add(randomNumber, "days");
 export const newArrivals = [
   {
     id: "001",
-    image: "../src/components/assets/product-1.webp",
+    image: "./assets/product-1.webp",
     name: "Black & Red Pure Cotton Striped Polo Neck White T-shirt - Converge",
     company: "Puma",
     price: 129900,
@@ -20,7 +20,7 @@ export const newArrivals = [
   },
   {
     id: "002",
-    image: "../src/components/assets/product-2.webp",
+    image: "./assets/product-2.webp",
     name: "Black Collar Mandarin Collar Pure Cotton White Full-sleeve Tee - Halo",
     company: "Nike",
     price: 139900,
@@ -35,7 +35,7 @@ export const newArrivals = [
   },
   {
     id: "003",
-    image: "../src/components/assets/product-3.webp",
+    image: "./assets/product-3.webp",
     name: "V Neck Bell Sleeve Top - Red",
     company: "Zara",
     price: 1600,
@@ -50,7 +50,7 @@ export const newArrivals = [
   },
   {
     id: "004",
-    image: "../src/components/assets/product-4.webp",
+    image: "./assets/product-4.webp",
     name: "High Neck Rib Knit Top - Pink",
     company: "H&M",
     price: 1195,

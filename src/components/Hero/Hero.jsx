@@ -1,9 +1,8 @@
 import React from 'react'
 import Item from '../Item/Item'
-// import { newArriavals } from '../../assets/newArriavals.js'
-import { newArrivals } from '../assets/newArriavals.js'
+import { newArrivals } from '../../../public/assets/newArriavals.js'
 import "./Hero.css"
-import { newCollections } from '../assets/newCollections.js'
+import { newCollections } from '../../../public/assets/newCollections.js'
 const Hero = () => {
   return (
 
@@ -14,7 +13,7 @@ const Hero = () => {
       <h3>We Got New Arrivals</h3>
       <h3>For Everyone<span>👋</span></h3>
       </div>
-     <img src='../src/components/assets/hero-banner.png' style={{backgroundColor:"transparent"}} width="300"/>
+     <img src='./assets/hero-banner.png' style={{backgroundColor:"transparent"}} width="300"/>
     </div>
 
     <main className='new-arrivals'>

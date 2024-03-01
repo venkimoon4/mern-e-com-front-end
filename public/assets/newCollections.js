@@ -5,7 +5,7 @@ const days = today.add(randomNumber, "days");
 export const newCollections = [
   {
     id: "005",
-    image: "../src/components/assets/product-5.webp",
+    image: "./assets/product-5.webp",
     name: "Crew Neck Pure Cotton White T-Shirt - Maze",
     company: "Adidas",
     price: 209900,
@@ -21,7 +21,7 @@ export const newCollections = [
   },
   {
     id: "006",
-    image: "../src/components/assets/product-6.webp",
+    image: "./assets/product-6.webp",
     name: "Mandarin Collar Linen Cotton White Shirt - Azlin",
     company: "Nike",
     price: 229900,
@@ -37,7 +37,7 @@ export const newCollections = [
   },
   {
     id: "007",
-    image: "../src/components/assets/product-7.webp",
+    image: "./assets/product-7.webp",
     name: "Pure Cotton Embroidered White Shirt for Men - Retreat",
     company: "Puma",
     price: 229900,
@@ -53,7 +53,7 @@ export const newCollections = [
   },
   {
     id: "008",
-    image: "../src/components/assets/product-8.webp",
+    image: "./assets/product-8.webp",
     name: "Pure Cotton Oxford Men's White Shirt with Beach-Inspired Print - Riviera",
     company: "Tommy Hilfiger",
     price: 199900,
@@ -69,7 +69,7 @@ export const newCollections = [
   },
   {
     id: "009",
-    image: "../src/components/assets/product-9.webp",
+    image: "./assets/product-9.webp",
     name: "V-Neck Rib Knit Top - Beige",
     company: "Calvin Klein",
     price: 995,
@@ -85,7 +85,7 @@ export const newCollections = [
   },
   {
     id: "0010",
-    image: "../src/components/assets/product-10.webp",
+    image: "./assets/product-10.webp",
     name: "LivSoft Cotton Square Neck T-Shirt - Orange",
     company: "H&M",
     price: 1495,
@@ -101,7 +101,7 @@ export const newCollections = [
   },
   {
     id: "0011",
-    image: "../src/components/assets/product-11.webp",
+    image: "./assets/product-11.webp",
     name: "LivSoft Cotton T-Shirt - Black And White",
     company: "Zara",
     price: 1395,
@@ -117,7 +117,7 @@ export const newCollections = [
   },
   {
     id: "0012",
-    image: "../src/components/assets/product-12.webp",
+    image: "./assets/product-12.webp",
     name: "LivSoft Cotton T-Shirt - White And Black",
     company: "Levi's",
     price: 1395,

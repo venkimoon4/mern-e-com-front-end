@@ -52,7 +52,7 @@ const email = useSelector((store) => store.user.email);
     <header className={styles.header}>
       <NavLink to="/" className={`${styles.leftSection} nav-links`}>
         <div>
-          <img src="../src/components/assets/logo.avif" width="130" alt="logo" />
+          <img src="./assets/logo.avif" width="130" alt="logo" />
         </div>
         <h3>CLOTHING</h3>
       </NavLink>

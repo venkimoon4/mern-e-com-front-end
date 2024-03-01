@@ -1,8 +1,9 @@
 import React from 'react'
 import { useParams } from "react-router-dom"
 import "./Product.css"
-import { all_products } from '../assets/all_products.js';
-import { newCollections } from '../assets/newCollections.js';
+import { all_products }  from '../../../public/assets/all_products.js'
+import { newCollections } from '../../../public/assets/newCollections.js'
+
 import Item from '../Item/Item.jsx';
 import { useDispatch, useSelector } from "react-redux"
 import { bagActions } from '../../store/bagSlice.js';
