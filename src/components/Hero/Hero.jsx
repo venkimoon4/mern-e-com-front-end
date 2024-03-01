@@ -14,7 +14,7 @@ const Hero = () => {
       <h3>We Got New Arrivals</h3>
       <h3>For Everyone<span>👋</span></h3>
       </div>
-     <img src='../src/assets/hero-banner.png' style={{backgroundColor:"transparent"}} width="300"/>
+     <img src='./images/hero-banner.png' style={{backgroundColor:"transparent"}} width="300"/>
     </div>
 
     <main className='new-arrivals'>
