@@ -11,7 +11,7 @@ const Item = ({item}) => {
 
       <div className='item-image-container'>
         <NavLink to={`/product/${item.id}`}>
-        <img src={item.image} width="280px" alt='item-image'/>
+        <img src={item.image} width="280px" onClick={window.scrollTo(0,0)} alt='item-image'/>
         </NavLink>
       </div>
 
