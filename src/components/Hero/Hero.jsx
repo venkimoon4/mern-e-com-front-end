@@ -1,9 +1,21 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Item from '../Item/Item'
 import { newArrivals } from '../../../public/assets/newArriavals.js'
 import "./Hero.css"
 import { newCollections } from '../../../public/assets/newCollections.js'
 const Hero = () => {
+
+  const inputRef=useRef()
+
+  const handleNewsLetter=()=>{
+    if(!inputRef.current.value){
+    alert('Please Enter You Email Address')
+    }
+    else{
+      alert('Sent Successfully Thank You 💌')
+    }
+  }
+
   return (
 
     <>
@@ -56,7 +68,7 @@ const Hero = () => {
 
        <h3>Subsrcibe To Our News Letter</h3>
 
-       <input placeholder='Email Addresss'/><button>Subscribe</button>
+       <input ref={inputRef} placeholder='Email Addresss'/><button onClick={handleNewsLetter}>Subscribe</button>
 
        </div>
 
