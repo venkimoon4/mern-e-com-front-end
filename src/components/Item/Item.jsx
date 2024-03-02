@@ -4,8 +4,6 @@ import { NavLink } from 'react-router-dom'
 
 const Item = ({item}) => {
 
-
-
   return (
     <div className='item-container'>
 

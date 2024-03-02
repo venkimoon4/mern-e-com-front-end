@@ -25,7 +25,7 @@
 }
 .ratings-container{
   display: flex;
-  width: 100px;
+  width: 200px;
   justify-content: space-between;
   margin-top: 15px;
   margin-bottom: 20px;

@@ -54,7 +54,7 @@ const Product = () => {
        <div className='product-showcase-details'>
         <h5>{product.name}</h5>
         <div className='ratings-container'>
-        <span>{product.rating.stars}⭐</span><span>({product.rating.count})</span>
+        <span>⭐⭐⭐⭐ {product.rating.stars}</span><span>({product.rating.count})</span>
         </div>
         <p className='product-price'>Rs.{product.price}</p>
         <p>Indulge in the enchanting allure of our dress collection, where each piece is a testament to timeless elegance and contemporary flair.
