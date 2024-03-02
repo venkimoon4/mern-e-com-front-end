@@ -10,15 +10,29 @@
     rgba(238, 174, 202, 1) 0%,
     rgba(220, 233, 148, 1) 100%
   );
-  height: 350px;
-  margin: 20px;
+  height: 400px;
+  margin: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   color: white;
 }
+.new-arrivals-banner img:hover{
+  padding: 50px;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3);
+  transition: all 4s;
+  cursor: pointer;
+}
 .new-arrivals-banner h3 {
   font-size: 2rem;
+  font-weight: 600;
+  transition: font-size 0.55s;
+  transition: color 0.55;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.55);
+}
+.new-arrivals-banner h3:hover{
+  color:black;
+  font-size: 2.3rem;
 }
 .new-arrivals-banner p {
   font-size: 1.5rem;

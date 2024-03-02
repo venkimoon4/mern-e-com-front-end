@@ -2,10 +2,19 @@ const randomNumber = Math.round(Math.random() * 7);
 const today = dayjs();
 const days = today.add(randomNumber, "days");
 
+import product_5 from "../assets/product-5.webp"
+import product_6 from "../assets/product-6.webp"
+import product_7 from "../assets/product-7.webp"
+import product_8 from "../assets/product-8.webp"
+import product_9 from "../assets/product-9.webp"
+import product_10 from "../assets/product-10.webp"
+import product_11 from "../assets/product-11.webp"
+import product_12 from "../assets/product-12.webp"
+
 export const newCollections = [
   {
     id: "005",
-    image: "./assets/product-5.webp",
+    image: product_5,
     name: "Crew Neck Pure Cotton White T-Shirt - Maze",
     company: "Adidas",
     price: 209900,
@@ -21,7 +30,7 @@ export const newCollections = [
   },
   {
     id: "006",
-    image: "./assets/product-6.webp",
+    image: product_6,
     name: "Mandarin Collar Linen Cotton White Shirt - Azlin",
     company: "Nike",
     price: 229900,
@@ -37,7 +46,7 @@ export const newCollections = [
   },
   {
     id: "007",
-    image: "./assets/product-7.webp",
+    image: product_7,
     name: "Pure Cotton Embroidered White Shirt for Men - Retreat",
     company: "Puma",
     price: 229900,
@@ -53,7 +62,7 @@ export const newCollections = [
   },
   {
     id: "008",
-    image: "./assets/product-8.webp",
+    image: product_8,
     name: "Pure Cotton Oxford Men's White Shirt with Beach-Inspired Print - Riviera",
     company: "Tommy Hilfiger",
     price: 199900,
@@ -69,7 +78,7 @@ export const newCollections = [
   },
   {
     id: "009",
-    image: "./assets/product-9.webp",
+    image: product_9,
     name: "V-Neck Rib Knit Top - Beige",
     company: "Calvin Klein",
     price: 995,
@@ -85,7 +94,7 @@ export const newCollections = [
   },
   {
     id: "0010",
-    image: "./assets/product-10.webp",
+    image: product_10,
     name: "LivSoft Cotton Square Neck T-Shirt - Orange",
     company: "H&M",
     price: 1495,
@@ -101,7 +110,7 @@ export const newCollections = [
   },
   {
     id: "0011",
-    image: "./assets/product-11.webp",
+    image: product_11,
     name: "LivSoft Cotton T-Shirt - Black And White",
     company: "Zara",
     price: 1395,
@@ -117,7 +126,7 @@ export const newCollections = [
   },
   {
     id: "0012",
-    image: "./assets/product-12.webp",
+    image: product_12,
     name: "LivSoft Cotton T-Shirt - White And Black",
     company: "Levi's",
     price: 1395,

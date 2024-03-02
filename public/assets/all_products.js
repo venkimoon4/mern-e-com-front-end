@@ -1,11 +1,49 @@
 const randomNumber = Math.round(Math.random() * 7);
 const today = dayjs();
 const days = today.add(randomNumber, "days");
+import product_1 from "../assets/product-1.webp"
+import product_2 from "../assets/product-2.webp"
+import product_3 from "../assets/product-3.webp"
+import product_4 from "../assets/product-4.webp"
+import product_5 from "../assets/product-5.webp"
+import product_6 from "../assets/product-6.webp"
+import product_7 from "../assets/product-7.webp"
+import product_8 from "../assets/product-8.webp"
+import product_9 from "../assets/product-9.webp"
+import product_10 from "../assets/product-10.webp"
+import product_11 from "../assets/product-11.webp"
+import product_12 from "../assets/product-12.webp"
+import product_13 from "../assets/product-13.webp"
+import product_14 from "../assets/product-14.webp"
+import product_15 from "../assets/product-15.webp"
+import product_16 from "../assets/product-16.webp"
+import product_17 from "../assets/product-17.webp"
+import product_18 from "../assets/product-18.webp"
+import product_19 from "../assets/product-19.webp"
+import product_20 from "../assets/product-20.webp"
+import product_21 from "../assets/product-21.webp"
+import product_22 from "../assets/product-22.webp"
+import product_23 from "../assets/product-23.webp"
+import product_24 from "../assets/product-24.webp"
+import product_25 from "../assets/product-25.jpg"
+import product_26 from "../assets/product-26.jpg"
+import product_27 from "../assets/product-27.jpg"
+import product_28 from "../assets/product-28.webp"
+import product_29 from "../assets/product-29.jpg"
+import product_30 from "../assets/product-30.webp"
+import product_31 from "../assets/product-31.jpg"
+import product_32 from "../assets/product-32.webp"
+import product_33 from "../assets/product-33.jpg"
+import product_34 from "../assets/product-34.webp"
+import product_35 from "../assets/product-35.jpg"
+import product_36 from "../assets/product-36.jpg"
+
+
 
 export const all_products = [
   {
     id: "001",
-    image: "./assets/product-1.webp",
+    image: product_1,
     name: "Black & Red Pure Cotton Striped Polo Neck White T-shirt - Converge",
     original_price: 259800,  // Original price 2X
     price: 129900,  // Unchanged price
@@ -21,7 +59,7 @@ export const all_products = [
   },
   {
     id: "002",
-    image: "./assets/product-2.webp",
+    image: product_2,
     name: "Black Collar Mandarin Collar Pure Cotton White Full-sleeve Tee - Halo",
     original_price: 279800,  // Original price 2X
     price: 139900,  // Unchanged price
@@ -37,7 +75,7 @@ export const all_products = [
   },
   {
     id: "003",
-    image: "./assets/product-3.webp",
+    image: product_3,
     name: "V Neck Bell Sleeve Top - Red",
     original_price: 3200,  // Original price 2X
     price: 1600,  // Unchanged price
@@ -53,7 +91,7 @@ export const all_products = [
   },
   {
     id: "004",
-    image: "./assets/product-4.webp",
+    image: product_4,
     name: "High Neck Rib Knit Top - Pink",
     original_price: 2390,  // Original price 2X
     price: 1195,  // Unchanged price
@@ -69,7 +107,7 @@ export const all_products = [
   },
   {
     id: "005",
-    image: "./assets/product-5.webp",
+    image: product_5,
     name: "Crew Neck Pure Cotton White T-Shirt - Maze",
     original_price: 419800,  // Original price 2X
     price: 209900,  // Unchanged price
@@ -85,7 +123,7 @@ export const all_products = [
   },
   {
     id: "006",
-    image: "./assets/product-6.webp",
+    image: product_6,
     name: "Mandarin Collar Linen Cotton White Shirt - Azlin",
     original_price: 459800,  // Original price 2X
     price: 229900,  // Unchanged price
@@ -101,7 +139,7 @@ export const all_products = [
   },
   {
     id: "007",
-    image: "./assets/product-7.webp",
+    image: product_7,
     name: "Pure Cotton Embroidered White Shirt for Men - Retreat",
     original_price: 459800,  // Original price 2X
     price: 229900,  // Unchanged price
@@ -117,7 +155,7 @@ export const all_products = [
   },
   {
     id: "008",
-    image: "./assets/product-8.webp",
+    image: product_8,
     name: "Pure Cotton Oxford Men's White Shirt with Beach-Inspired Print - Riviera",
     original_price: 399800,  // Original price 2X
     price: 199900,  // Unchanged price
@@ -133,7 +171,7 @@ export const all_products = [
   },
   {
     id: "009",
-    image: "./assets/product-9.webp",
+    image: product_9,
     name: "V-Neck Rib Knit Top - Beige",
     original_price: 1990,  // Original price 2X
     price: 995,  // Unchanged price
@@ -149,7 +187,7 @@ export const all_products = [
   },
   {
     id: "0010",
-    image: "./assets/product-10.webp",
+    image: product_10,
     name: "LivSoft Cotton Square Neck T-Shirt - Orange",
     original_price: 2990,  // Original price 2X
     price: 1495,  // Unchanged price
@@ -165,7 +203,7 @@ export const all_products = [
   },
   {
     id: "0011",
-    image: "./assets/product-11.webp",
+    image: product_11,
     name: "LivSoft Cotton T-Shirt - Black And White",
     original_price: 2790,  // Original price 2X
     price: 1395,  // Unchanged price
@@ -181,7 +219,7 @@ export const all_products = [
   },
   {
     id: "0012",
-    image: "./assets/product-12.webp",
+    image: product_12,
     name: "LivSoft Cotton T-Shirt - White And Black",
     original_price: 2790,  // Original price 2X
     price: 1395,  // Unchanged price
@@ -197,7 +235,7 @@ export const all_products = [
   },
   {
     id: "0013",
-    image: "./assets/product-13.webp",
+    image: product_13,
     name: "LivSoft Cotton T-Shirt - Mustard",
     original_price: 2798,  // Original price 2X
     price: 1399,  // Unchanged price
@@ -213,7 +251,7 @@ export const all_products = [
   },
   {
     id: "0014",
-    image: "./assets/product-14.webp",
+    image: product_14,
     name: "Cutout Rib Knit Top - Black",
     original_price: 1080,  // Original price 2X
     price: 540,  // Unchanged price
@@ -229,7 +267,7 @@ export const all_products = [
   },
   {
     id: "0015",
-    image: "./assets/product-15.webp",
+    image: product_15,
     name: "Velvet Two-Way Tie Up Top - Maroon",
     original_price: 2500,  // Original price 2X
     price: 1250,  // Unchanged price
@@ -245,7 +283,7 @@ export const all_products = [
   },
   {
     id: "0016",
-    image: "./assets/product-16.webp",
+    image: product_16,
     name: "Satin Solid Camisole - Black",
     original_price: 2390,  // Original price 2X
     price: 1195,  // Unchanged price
@@ -261,7 +299,7 @@ export const all_products = [
   },
   {
     id: "0017",
-    image: "./assets/product-17.webp",
+    image: product_17,
     name: "Satin Lace Camisole - Black",
     original_price: 2390,  // Original price 2X
     price: 1195,  // Unchanged price
@@ -277,7 +315,7 @@ export const all_products = [
   },
   {
     id: "0018",
-    image: "./assets/product-18.webp",
+    image: product_18,
     name: "Cotton Ruffle Detail Shirt - Light Blue",
     original_price: 3000,  // Original price 2X
     price: 1500,  // Unchanged price
@@ -293,7 +331,7 @@ export const all_products = [
   },
   {
     id: "0019",
-    image: "./assets/product-19.webp",
+    image: product_19,
     name: "Pure Cotton Casual Resortwear Oxford Shirt - Mirage",
     original_price: 419800,  // Original price 2X
     price: 209900,  // Unchanged price
@@ -309,7 +347,7 @@ export const all_products = [
   },
   {
     id: "0020",
-    image: "./assets/product-20.webp",
+    image: product_20,
     name: "Taupe Detail Drop Shoulder White T-Shirt - Aura",
     original_price: 259800,  // Original price 2X
     price: 129900,  // Unchanged price
@@ -325,7 +363,7 @@ export const all_products = [
   },
   {
     id: "0021",
-    image: "./assets/product-21.webp",
+    image: product_21,
     name: "Poppy Print Oxford Weave White Shirt - Zipping",
     original_price: 299800,  // Original price 2X
     price: 149900,  // Unchanged price
@@ -341,7 +379,7 @@ export const all_products = [
   },
   {
     id: "0022",
-    image: "./assets/product-22.webp",
+    image: product_22,
     name: "Zipper Collar Cotton Twill White Shirt - Zip Log",
     original_price: 359800,  // Original price 2X
     price: 179900,  // Unchanged price
@@ -357,7 +395,7 @@ export const all_products = [
   },
   {
     id: "0023",
-    image: "./assets/product-23.webp",
+    image: product_23,
     name: "Hoodie Collar Cotton Linen White Kurta - Cloudie",
     original_price: 479800,  // Original price 2X
     price: 239900,  // Unchanged price
@@ -373,7 +411,7 @@ export const all_products = [
   },
   {
     id: "0024",
-    image: "./assets/product-24.webp",
+    image: product_24,
     name: "Contrast Detail White Hoodie - Wakai",
     original_price: 459800,  // Original price 2X
     price: 229900,  // Unchanged price
@@ -389,7 +427,7 @@ export const all_products = [
   },
   {
     id: "0025",
-    image: "./assets/product-25.jpg",
+    image: product_25,
     name: "Fine-knit dress",
     original_price: 1818,  // Original price 2X
     price: 909,  // Unchanged price
@@ -405,7 +443,7 @@ export const all_products = [
   },
   {
     id: "0026",
-    image: "./assets/product-26.jpg",
+    image: product_26,
     name: "Cotton jumper",
     original_price: 1118,  // Original price 2X
     price: 559,  // Unchanged price
@@ -421,7 +459,7 @@ export const all_products = [
   },
   {
     id: "0027",
-    image: "./assets/product-27.jpg",
+    image: product_27,
     name: "Fine-knit cotton cardigan",
     original_price: 1118,  // Original price 2X
     price: 559,  // Unchanged price
@@ -437,7 +475,7 @@ export const all_products = [
   },
   {
     id: "0028",
-    image: "./assets/product-28.webp",
+    image: product_28,
     name: "Long-sleeved T-shirt",
     original_price: 978,  // Original price 2X
     price: 489,  // Unchanged price
@@ -453,7 +491,7 @@ export const all_products = [
   },
   {
     id: "0029",
-    image: "./assets/product-29.jpg",
+    image: product_29,
     name: "Cotton T-shirt",
     original_price: 558,  // Original price 2X
     price: 279,  // Unchanged price
@@ -469,7 +507,7 @@ export const all_products = [
   },
   {
     id: "0030",
-    image: "./assets/product-30.webp",
+    image: product_30,
     name: "Cotton jersey polo shirt",
     original_price: 1118,  // Original price 2X
     price: 559,  // Unchanged price
@@ -485,7 +523,7 @@ export const all_products = [
   },
   {
     id: "0031",
-    image: "./assets/product-31.jpg",
+    image: product_31,
     name: "Long-sleeved T-shirt",
     original_price: 558,  // Original price 2X
     price: 279,  // Unchanged price
@@ -501,7 +539,7 @@ export const all_products = [
   },
   {
     id: "0032",
-    image: "./assets/product-32.webp",
+    image: product_32,
     name: "Sequined dress",
     original_price: 5980,  // Original price 2X
     price: 2990,  // Unchanged price
@@ -517,7 +555,7 @@ export const all_products = [
   },
   {
     id: "0033",
-    image: "./assets/product-33.jpg",
+    image: product_33,
     name: "Sequined tulle dress",
     original_price: 321800,  // Original price 2X
     price: 160900,  // Unchanged price
@@ -533,7 +571,7 @@ export const all_products = [
   },
   {
     id: "0034",
-    image: "./assets/product-34.webp",
+    image: product_34,
     name: "3-piece set",
     original_price: 37800,  // Original price 2X
     price: 18900,  // Unchanged price
@@ -549,7 +587,7 @@ export const all_products = [
   },
   {
     id: "0035",
-    image: "./assets/product-35.jpg",
+    image: product_35,
     name: "2-pack cotton leggings",
     original_price: 2098,  // Original price 2X
     price: 1049,  // Unchanged price
@@ -565,7 +603,7 @@ export const all_products = [
   },
   {
     id: "0036",
-    image: "./assets/product-36.jpg",
+    image: product_36,
     name: "Joggers",
     original_price: 2098,  // Original price 2X
     price: 1049,  // Unchanged price

@@ -1,11 +1,15 @@
 const randomNumber = Math.round(Math.random() * 7);
 const today = dayjs();
 const days = today.add(randomNumber, "days");
+import product_1 from "../assets/product-1.webp"
+import product_2 from "../assets/product-2.webp"
+import product_3 from "../assets/product-3.webp"
+import product_4 from "../assets/product-4.webp"
 
 export const newArrivals = [
   {
     id: "001",
-    image: "./assets/product-1.webp",
+    image: product_1,
     name: "Black & Red Pure Cotton Striped Polo Neck White T-shirt - Converge",
     company: "Puma",
     price: 129900,
@@ -20,7 +24,7 @@ export const newArrivals = [
   },
   {
     id: "002",
-    image: "./assets/product-2.webp",
+    image:product_2,
     name: "Black Collar Mandarin Collar Pure Cotton White Full-sleeve Tee - Halo",
     company: "Nike",
     price: 139900,
@@ -35,7 +39,7 @@ export const newArrivals = [
   },
   {
     id: "003",
-    image: "./assets/product-3.webp",
+    image: product_3,
     name: "V Neck Bell Sleeve Top - Red",
     company: "Zara",
     price: 1600,
@@ -50,7 +54,7 @@ export const newArrivals = [
   },
   {
     id: "004",
-    image: "./assets/product-4.webp",
+    image: product_4,
     name: "High Neck Rib Knit Top - Pink",
     company: "H&M",
     price: 1195,

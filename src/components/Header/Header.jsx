@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getUserItem } from "../../controllers/userController";
 import { bagActions } from "../../store/bagSlice";
 import { userActions } from "../../store/userSlice";
-
+import logo from "../../../public/assets/logo.avif"
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -52,7 +52,7 @@ const email = useSelector((store) => store.user.email);
     <header className={styles.header}>
       <NavLink to="/" className={`${styles.leftSection} nav-links`}>
         <div>
-          <img src="./assets/logo.avif" width="130" alt="logo" />
+          <img src={logo} width="130" alt="logo" />
         </div>
         <h3>CLOTHING</h3>
       </NavLink>

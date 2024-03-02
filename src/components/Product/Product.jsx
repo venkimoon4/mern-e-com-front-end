@@ -8,6 +8,7 @@ import Item from '../Item/Item.jsx';
 import { useDispatch, useSelector } from "react-redux"
 import { bagActions } from '../../store/bagSlice.js';
 import { addUserItemToCart } from '../../controllers/userController.js';
+import BreadCrum from '../BreadCrum/BreadCrum.jsx'
 const Product = () => {
 
   const {productId}=useParams();
@@ -33,6 +34,7 @@ const Product = () => {
   return (
     <div>
 
+    <BreadCrum product={product}/>
 
     <div className='product-container'>
       
