@@ -8,6 +8,7 @@ import { getUserItem } from "../../controllers/userController";
 import { bagActions } from "../../store/bagSlice";
 import { userActions } from "../../store/userSlice";
 import logo from "../../../public/assets/logo.avif"
+import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -49,7 +50,7 @@ const email = useSelector((store) => store.user.email);
   const checkBagLength = bag.length !== 0 && bag.length;
 
   return (
-    <header className={styles.header}>
+    <header className={`${styles.header} header`}>
       <NavLink to="/" className={`${styles.leftSection} nav-links`}>
         <div>
           <img src={logo} width="130" alt="logo" />
@@ -57,7 +58,31 @@ const email = useSelector((store) => store.user.email);
         <h3>CLOTHING</h3>
       </NavLink>
 
-      <div className={styles.rightSection}>
+      <div className="middle-section">
+
+      <Navbar/>
+
+      <NavLink
+          className="nav-links"
+          style={(obj) => {
+            return handleStyleForNavLink(obj);
+          }}
+          to="/cart"
+        >
+          <div className={styles.cartContainer}>
+            <MdOutlineShoppingBag className={styles.cartIcon} />
+            Cart
+            {checkBagLength && (
+              <div className={styles.cartCount}>{checkBagLength}</div>
+            )}
+          </div>
+        </NavLink>
+      
+
+      </div>
+
+
+      <div className={`${styles.rightSection} right-section`}>
         <NavLink
           className="nav-links"
           style={(obj) => {

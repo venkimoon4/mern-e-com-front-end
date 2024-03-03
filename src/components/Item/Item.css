@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 250px;
 }
-.item-details-container .item-name{
+.item-name{
 font-size: 1rem;
 }
 .item-details-container{
