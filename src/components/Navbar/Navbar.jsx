@@ -25,7 +25,7 @@ function Navbar() {
   return (
 <div class="dropdown-center" >
   <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style={{width:"100px",backgroundColor:"grey"}}>
-    Menu
+    Home
   </button>
   <ul class="dropdown-menu">
     <li><Link class="dropdown-item" to="/men">Men</Link></li>
