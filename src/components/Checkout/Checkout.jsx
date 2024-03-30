@@ -141,7 +141,7 @@ const Checkout = () => {
             className="btn btn-checkout btn-block btn-success submit-button"
           >
             <span className="submit-button-lock"></span>
-            <span className="align-middle">Pay $500.00</span>
+            <span className="align-middle">Pay ${totalPrice}</span>
           </button>
           {error && <Alert msg={error} />}
         </form>
